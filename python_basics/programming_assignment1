@@ -1,0 +1,28 @@
+1.> print("Hello Python")
+
+2.>
+num1= int(input("Enter first number: "))
+num2= int(input("Enter second number: "))
+
+add=num1+num2
+print(add)
+divide=num1/num2
+print(divide)
+
+3.>
+base= int(input("Enter base: "))
+height= int(input("Enter height: "))
+
+area= 0.5*base*height
+print(area)
+
+4.>
+x=5
+y=6
+x,y= y,x
+print(x)
+print(y)
+
+5.>
+import random
+print(random.randint(0,100)) #prints a random number in the range (0, 100)
