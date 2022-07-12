@@ -1,0 +1,40 @@
+Programming Assignment-2
+Shreya Bag
+
+1.> 
+kilo= float(input("Enter the value: "))
+mile=kilo/1.609
+print(mile)
+
+2.>
+celcius=float(input("Enter your value: "))
+farenhite=((celcius*1.8)+32)
+print(farenhite)
+
+3.>
+import calendar
+yy=2022
+mm=7
+print(calendar.month(yy,mm))
+
+4.>
+import cmath
+
+a = int(input("the value of a: "))
+b = int(input("the value of b: "))
+c = int(input("the value of c: "))
+
+d = (b**2) - (4*a*c)
+
+# find two solutions
+sol1 = (-b+cmath.sqrt(d))/(2*a)
+sol2 = (-b-cmath.sqrt(d))/(2*a)
+
+print('The solution are', sol1, 'and', sol2)
+
+5.>
+x=5
+y=6
+x,y= y,x
+print(x)
+print(y)
