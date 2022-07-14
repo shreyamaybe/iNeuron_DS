@@ -1,0 +1,84 @@
+Programming Assignment- 4
+Shreya Bag
+
+1.>
+num=5
+factorial=1
+
+if num<0:
+    print("no factorial.")
+elif num==0:
+    print("factorial is 1.")
+else:
+    for i in range (1, num+1):
+        factorial= factorial*i 
+        
+print("the factorial of ", num, "is", factorial)
+
+2.>
+for i in range (1,11):
+    product=i*10
+    print(10, '*', i, '=', product)
+
+3.>
+num = int(input("How many terms? "))
+
+n1, n2 = 0, 1
+count = 0
+
+if num <= 0:
+   print("no negative")
+   
+elif num == 1:
+    print(n1)
+
+else:
+   print("Fibonacci sequence:")
+   while count < num:
+       print(n1)
+       a= n1 + n2
+       n1 = n2
+       n2 = a
+       count += 1
+
+4.>
+num = int(input("Enter a number: "))
+
+sum = 0
+
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
+
+if num == sum:
+   print(num,"is an Armstrong number")
+else:
+   print(num,"is not an Armstrong number")
+
+
+5.>
+lower = 100
+upper = 2000
+
+for num in range(lower, upper + 1):
+
+   order = len(str(num))
+   sum = 0
+
+   temp = num
+   while temp > 0:
+       digit = temp % 10
+       sum += digit ** order
+       temp //= 10
+
+   if num == sum:
+       print(num)
+
+
+6.>
+n = int(input("How many sum of natural number? "))
+
+n_sum= ((n*(n+1))/2)
+print(n_sum)
