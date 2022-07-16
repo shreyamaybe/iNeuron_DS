@@ -1,0 +1,36 @@
+Assignment- 3
+Shreya Bag
+
+1.> It helps to reduce duplication of code, makes a problem simple, helps to reus e code.
+
+2.> A function runs when it is called.
+
+3.> def function_name():
+
+4.> Function is a block of code.
+A function call is used to execute the function when it is called.
+
+5.> There is only one global python scope per program execution.
+There are three local scopes in python.
+
+6.> When a variable in a local scope is called in the function it is destroyed.
+
+7.> The value that a function returns to the caller is known as the function's return value.
+Yes, it is possible to have a return value in an expression.
+
+8.> In this case the function will be executed but the return value of the function called will be undefined.
+
+9.> To make a function variable refer to the global variable, we can use the global keyword(pm.globals) to declare the global variables.
+
+10.> None is a datatype itself.
+
+11.> That import statement imports a module named areallyourpetsnamederic.
+
+12.> spam.bacon()
+
+13.> To save a programme from crashing if it encounters an error we use the try and expect method.
+
+14.> The try block lets you test a block of code for errors.
+The except block lets you handle the error.
+
+
