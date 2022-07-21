@@ -1,0 +1,76 @@
+Programming Assignment- 8
+Shreya Bag
+
+1.>
+x = [[1,2],
+     [3,4]]
+ 
+y = [[5,6],
+     [7,8]]
+ 
+ 
+result = [[0,0], [0,0]]
+ 
+
+for i in range(len(x)):  
+    for j in range(len(x[0])):
+        result[i][j] = x[i][j] + y[i][j]
+ 
+for r in result:
+    print(r)
+
+
+2.>
+x = [[1,2], [3,4]]
+ 
+y = [[5,6], [7,8]]
+ 
+ 
+result = [[0,0], [0,0]]
+ 
+
+for i in range(len(x)):  
+    for j in range(len(x[0])):
+        for k in range (len(y)):
+            result[i][j] += x[i][k] * y[k][j]
+ 
+for r in result:
+    print(r)
+
+
+3.>
+X = [[12,7],
+    [4 ,5],
+    [3 ,8]]
+
+result = [[X[j][i] for j in range(len(X))] for i in range(len(X[0]))]
+
+for r in result:
+   print(r)
+
+
+4.>
+string = "mango watermelon apple"
+
+words = [word.lower() for word in string.split()]
+
+words.sort()
+
+print("The sorted words are:")
+for word in words:
+   print(word)
+
+
+5.>
+string = "!shreya is, a good: girl."
+ 
+print(string)
+
+punct = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+ 
+
+for i in string:
+    if i in punct:
+        string = string.replace(i, "")
+ 
+print(string)
