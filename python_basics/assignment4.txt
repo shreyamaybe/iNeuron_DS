@@ -1,0 +1,42 @@
+Shreya Bag; Assignment-4
+
+
+1. [] is an empty list.
+
+2. spam[2] = ‘hello’
+
+3. spam[int(int(3* 2 / 11)]
+   spam[int(int(33/11)]
+ spam[int(3)]
+spam[3]
+output- ‘d’
+
+4. spam[-1] = ‘d’
+
+5. spam[:2] = [‘a’ , ‘b’]
+
+6.  index 1
+
+7. [3.14, ‘cat’, 11, ‘cat’, True, 99]
+
+8. [3.14, 11, ‘cat’ ,True]
+
+9. list concatenation operator:   +
+    List replication operator:  *
+
+10. append() adds value only to the end but insert() can add value at any index position.
+
+11.  del and remove()
+
+12.  Both list and string can be concatenated and replicated. Value can be added in both of them.
+
+13.  Lists are alterable, tuples are not.
+
+14.  (42,)
+
+15.  t = list(t)
+
+16.  They contain references to list values.
+
+17.  copy.copy() function does a shallow copy
+       copy.deepcopy() function duplicates list inside list. 
