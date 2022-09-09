@@ -1,0 +1,31 @@
+Shreya Bag; Assignment-6
+
+
+1. Escape charcter is backslash ‘ \ ‘
+The ‘ \ ‘ symbol is followed by one of the escape sequence character.
+
+2. n stands for newline, t stands for horizontal tab.
+
+3. by using ‘ \ ‘ followed by a special character.
+
+4. Because the capital letters mark the beginning and the end.
+
+5. If we take the example of Hello world then
+print(“Hello”)
+print(“world”)
+
+6. e
+Hello
+Hello
+lo world!
+
+7. HELLO
+    True
+     hello
+     
+8. [‘Remember’ , ‘remember’ , ‘the’ , ‘fifth’ , ‘of’ , ‘July.’ ]
+    [‘There-can-be-only-one.’]
+
+9. rjust(), ljust(), center()
+
+10. By using lstrip(), rstrip()
